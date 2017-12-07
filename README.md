@@ -1,6 +1,6 @@
 # Coursera Machine Learning
 
-This repository contains jupyter notebooks of the lectures notes and python implementation of the exercises.
+This repository contains jupyter notebooks of the lectures notes and python implementations of the exercises.
 
 Week 1 & 2:
 

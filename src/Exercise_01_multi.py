@@ -129,7 +129,7 @@ def normalEqn(X, y):
     """
     
     tmp =  X.T.dot(X)
-    tmp = np.linalg.inv(tmp)
+    tmp = np.linalg.pinv(tmp)
     
     theta = tmp.dot(X.T).dot(y)
     return(theta)
