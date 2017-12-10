@@ -9,6 +9,10 @@ Week 1 & 2:
  * [Linear regression with one variable](https://github.com/kvantas/stanford_machine_learning/blob/master/notebooks/01_Linear_Regression_ex.ipynb)
  * [Linear regression with multiple variables](https://github.com/kvantas/stanford_machine_learning/blob/master/notebooks/01_Linear_Regression_Multi_ex.ipynb)
 
+ Week 3:
+ 
+* Week 3 Lecture Notes
+* Logistic Regression
 
 References:
 
