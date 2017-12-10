@@ -2,17 +2,14 @@
 
 This repository contains jupyter notebooks of the lectures notes and python implementations of the exercises.
 
-Week 1 & 2:
+1. Linear Regression with One Variable, [notes](https://github.com/kvantas/stanford_machine_learning/blob/master/notebooks/01_Week_Lecture_Notes.ipynb) and [exercise](https://github.com/kvantas/stanford_machine_learning/blob/master/notebooks/01_Linear_Regression_ex.ipynb)
 
- * [Week 1 Lecture Notes](https://github.com/kvantas/stanford_machine_learning/blob/master/notebooks/01_Week_01_Lecture_Notes%20.ipynb)
- * [Week 2 Lecture Notes](https://github.com/kvantas/stanford_machine_learning/blob/master/notebooks/02_Week_2_Lecture_Notes%20.ipynb)
- * [Linear regression with one variable](https://github.com/kvantas/stanford_machine_learning/blob/master/notebooks/01_Linear_Regression_ex.ipynb)
- * [Linear regression with multiple variables](https://github.com/kvantas/stanford_machine_learning/blob/master/notebooks/01_Linear_Regression_Multi_ex.ipynb)
+2. Linear regression with multiple variables: [notes](https://github.com/kvantas/stanford_machine_learning/blob/master/notebooks/02_Week_Lecture_Notes.ipynb) and [exercise](https://github.com/kvantas/stanford_machine_learning/blob/master/notebooks/01_Linear_Regression_Multi_ex.ipynb)
 
- Week 3:
- 
-* Week 3 Lecture Notes
-* Logistic Regression
+3. Logistic regression: [notes](https://github.com/kvantas/stanford_machine_learning/blob/master/notebooks/03_Week_Lecture_Notes_A.ipynb)
+
+4. Regularization [notes](https://github.com/kvantas/stanford_machine_learning/blob/master/notebooks/03_Week_Lecture_Notes_B.ipynb)
+
 
 References:
 
