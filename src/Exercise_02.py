@@ -94,7 +94,6 @@ def gradFunction(theta, X, y):
 
     """
     m = y.size  
-    hetta = sigmoid(X.dot(theta))   
     hetta = sigmoid(X.dot(theta)).reshape(y.shape)
     grad = 1/m * np.sum((hetta - y)*(X), axis = 0)
     return grad
