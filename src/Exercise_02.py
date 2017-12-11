@@ -109,7 +109,16 @@ print(grad)
 # ==================== Part 4: Optimizing using BFGS algorithm  ===============
 
 from scipy.optimize import minimize
-theta = minimize(fun = costFunction, x0=initial_theta, args=(X,y), 
+optim = minimize(fun = costFunction, x0=initial_theta, args=(X,y), 
                  method='BFGS', jac=gradFunction,
                  options={'maxiter':400})
-theta.x
+optim.x
+
+# plot data
+plotData(X[:,[1,2]], y, 'Exam 1 score', 'Exam 2 score', 'Admitted', 'Not admitted')
+x1_min, x1_max = X[:,1].min(), X[:,1].max(),
+x2_min, x2_max = X[:,2].min(), X[:,2].max(),
+xx1, xx2 = np.meshgrid(np.linspace(x1_min, x1_max), np.linspace(x2_min, x2_max))
+h = sigmoid(np.c_[np.ones((xx1.ravel().shape[0],1)), xx1.ravel(), xx2.ravel()].dot(optim.x))
+h = h.reshape(xx1.shape)
+plt.contour(xx1, xx2, h, [0.5], linewidths=1, colors='b')
