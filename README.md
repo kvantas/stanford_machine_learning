@@ -10,6 +10,8 @@ This repository contains jupyter notebooks of the lectures notes and python impl
 
 4. Regularization [notes](https://github.com/kvantas/stanford_machine_learning/blob/master/notebooks/03_Week_Lecture_Notes_B.ipynb) and [exercise](https://github.com/kvantas/stanford_machine_learning/blob/master/notebooks/03_Regularized_ex.ipynb)
 
+5. Multi-class Classification and Neural Networks [notes](https://github.com/kvantas/stanford_machine_learning/blob/master/notebooks/04_Week_Lecture_Notes.ipynb) and [exercise]()
+
 References:
 
 * https://www.coursera.org/learn/machine-learning/home/welcome
